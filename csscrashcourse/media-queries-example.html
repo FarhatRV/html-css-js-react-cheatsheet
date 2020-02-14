@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .container p{
+    border: 1px solid blue;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:20px;
+  }
+  
+  
+ 
+     /* On screens that are 425px wide or more, the 2 per row */
+@media screen and (min-width: 425px) {
+  .container{
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+    /* On screens that are 768px wide or more, the 3 per row */
+@media screen and (min-width: 768px) {
+  .container{
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* On screens that are 768px wide or more, the 4 per row */
+@media screen and (min-width: 1024px) {
+	.container{
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<p>By default, the background color of the document is "tan". If the screen size is 992px or less, the color will change to "blue". If it is 600px or less, it will change to "olive".</p>
+
+<p>By default, the background color of the document is "tan". If the screen size is 992px or less, the color will change to "blue". If it is 600px or less, it will change to "olive".</p>
+
+<p>By default, the background color of the document is "tan". If the screen size is 992px or less, the color will change to "blue". If it is 600px or less, it will change to "olive".</p>
+
+<p>By default, the background color of the document is "tan". If the screen size is 992px or less, the color will change to "blue". If it is 600px or less, it will change to "olive".</p>
+<p>By default, the background color of the document is "tan". If the screen size is 992px or less, the color will change to "blue". If it is 600px or less, it will change to "olive".</p>
+<p>By default, the background color of the document is "tan". If the screen size is 992px or less, the color will change to "blue". If it is 600px or less, it will change to "olive".</p>
+</div>
+
+</body>
+</html>
